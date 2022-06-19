@@ -16,6 +16,7 @@ api = Api(app)
 jwt = JWT(app, authenticate, identity) #/auth
 
 # komentar za git
+# drugi komentar za git
 
 api.add_resource(Item, '/item/<string:name>')  #http://127.0.0.1:5000/item/chair
 api.add_resource(ItemList, '/items')
